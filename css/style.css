@@ -1,0 +1,14 @@
+.cb-shortcode, .cb-footer, .cb-shortcode span, .cb-footer span { background: url(../images/switch.gif) repeat-x; display: block; float: left; }
+.cb-shortcode span, .cb-footer span { line-height: 30px; display: block; background-repeat: no-repeat; font-weight: bold; }
+.cb-shortcode span { background-position: left -90px; padding: 0 10px; }
+.cb-footer span { background-position: right -180px;padding: 0 10px; }
+.cb-footer.selected { background-position: 0 -30px; }
+.cb-footer.selected span { background-position: right -210px; color: #fff; }
+.cb-shortcode.selected { background-position: 0 -60px; }
+.cb-shortcode.selected span { background-position: left -150px; color: #fff; }
+.switch label { cursor: pointer; }
+.switch input { display: none; }
+
+.right { float:right; }
+.left { float:left; }
+.loading { background: url(../images/ajax-loader.gif) no-repeat; width:16px; height:16px; margin-top:14px; display:none; }
